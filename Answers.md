@@ -1,9 +1,13 @@
 # DB-Assignment
 
+
+
 1. Explain the relationship between the "Product" and "Product_Category" entities from the above diagram.
    
 Ans:  The relationship between “Product” and “Product_Category” entities:
       The “Product” entity is related to the “Product_Category” entity through the “category_id” attribute in the “Product” table. Specifically, each product in the “Product” table has a foreign key “category_id” that references the primary key “id” of the “Product_Category” table. This establishes a many-to-one relation between the "Product" and "Product_Category" entities, where multiple products can belong to a single category.
+
+
 
 
    
